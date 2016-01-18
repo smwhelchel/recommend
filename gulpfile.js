@@ -1,8 +1,8 @@
-var gulp = require('gulp');
-var mocha = require('gulp-mocha');
+var gulp    = require('gulp');
+var mocha   = require('gulp-mocha');
 var nodemon = require('gulp-nodemon');
-var concat = require('gulp-concat');
-var print = require('gulp-print');
+var concat  = require('gulp-concat');
+var print   = require('gulp-print');
 
 var libraries = [
   'client/bower_components/angular/angular.min.js',
