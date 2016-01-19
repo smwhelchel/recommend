@@ -1,5 +1,6 @@
 angular.module('recommend')
    .controller('homeController', function($scope) {
-    $scope.name = "Shannon";
-    $scope.date = new Date();
+    vm = this;
+    this.name = "Shannon";
+    this.date = new Date();
    });

@@ -8,9 +8,9 @@
   <body>
     <a href="#/join">Login | Join</a>
     <div ng-view></div>
-    <div ng-controller="homeController">
-      {{name}}
-      <p ng-bind="date | date:'medium'"></p>
+    <div ng-controller="homeController as home">
+      {{home.name}}<br>
+      {{home.date | date: 'medium'}}
     </div>
   </body>
 </html>
