@@ -9,8 +9,9 @@
     <a href="#/join">Login | Join</a>
     <div ng-view></div>
     <div ng-controller="homeController as home">
-      {{home.name}}<br>
-      {{home.date | date: 'medium'}}
+      {{home.name}}
+      <p>Today is: {{home.date | date:'medium'}}</p>
+      <p>The movies are: {{home.data}}</p>
     </div>
   </body>
 </html>
